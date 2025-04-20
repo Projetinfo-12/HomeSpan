@@ -1,6 +1,6 @@
 # HomeSpan
-Voici le code pour utiliser **HomeSpan** avec une LED simple.  
-⚠️ Il faut d'abord télécharger et installer la librairie **HomeSpan** est la version de ESP32 doit être 2.x.x
+Here's the code to use **HomeSpan** with a simple LED.
+⚠️ First, you need to download and install the **HomeSpan** library and the ESP32 version must be 2.x.x
 
 
-[![Télécharger](https://img.shields.io/badge/Télécharger-blue?style=for-the-badge&logo=github)](https://github.com/Projetinfo-12/HomeSpan/archive/refs/heads/main.zip)
+[![Download](https://img.shields.io/badge/Télécharger-blue?style=for-the-badge&logo=github)](https://github.com/Projetinfo-12/HomeSpan/archive/refs/heads/main.zip)
