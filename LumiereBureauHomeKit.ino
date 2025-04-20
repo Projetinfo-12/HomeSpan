@@ -1,27 +1,27 @@
 
 
-#include "HomeSpan.h" // on include HomeSpan
+#include "HomeSpan.h" // we include HomeSpan
 #include "DEV_LED.h" 
 
 void setup(){
 
-  Serial.begin(115200); // on démarrerle moniteur a 115200
+  Serial.begin(115200); // we start the monitor at 115200
 
-  homeSpan.begin(Category::Lighting,"Lumière Bureau"); // le non de la lumière
+  homeSpan.begin(Category::Lighting,"Lumière Bureau"); // the name of light
 
-  new SpanAccessory(); // on ajouter un accessory 
+  new SpanAccessory(); // we add an accessory 
     new Service::AccessoryInformation();
       new Characteristic::Identify();   
 
 
-    new DEV_LED(13); // Vous pouver modifier la valeur 13 par un auter Pin       
+    new DEV_LED(13); // You can change the value 13 by another Pin       
 /*
-  new SpanAccessory(); // on ajouter un accessory
+  new SpanAccessory(); // we add an accessory
    new Service::AccessoryInformation();    
       new Characteristic::Identify();                       
 
     
-    new DEV_LED(27); // Vous pouver modifier la valeur 27 par un auter Pin
+    new DEV_LED(27); // You can change the value 27 by another Pin
 */
 }
 
@@ -30,6 +30,6 @@ void loop(){
   homeSpan.poll(); 
   
 }
-// il faut la version 2.X.X
-// Pour se connectés il faut fair Q pour pouvoir se connectés au Wifi dans le moniteur série
-// le code du débu est 4663-7726
+// You need version 2.X.X.
+// To connect, you must type Q to connect to Wi-Fi in the serial monitor.
+// The start code is 4663-7726
