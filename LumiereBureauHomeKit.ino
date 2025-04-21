@@ -31,5 +31,5 @@ void loop(){
   
 }
 // You need version 2.X.X.
-// To connect, you must type Q to connect to Wi-Fi in the serial monitor.
+// To connect, you must type W to connect to Wi-Fi in the serial monitor.
 // The start code is 4663-7726
