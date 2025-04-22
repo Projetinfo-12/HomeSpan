@@ -1,5 +1,3 @@
-
-
 #include "HomeSpan.h" // we include HomeSpan
 #include "DEV_LED.h" 
 
