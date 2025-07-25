@@ -28,6 +28,6 @@ void loop(){
   homeSpan.poll(); 
   
 }
-// You need version 2.X.X.
+// You need version 3.X.X.
 // To connect, you must type W to connect to Wi-Fi in the serial monitor.
 // The start code is 4663-7726
